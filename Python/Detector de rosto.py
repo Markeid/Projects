@@ -4,7 +4,7 @@ import cv2
 face_cascade =  cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 #Carrega a imagem
-img = cv2.imread('mark.jpg')
+img = cv2.imread(--- INSERIR NOME DA IMAGEM AQUI ---)
 
 #Convertendo em escalas de cinza
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
